@@ -34,7 +34,7 @@ setup(
     author='Barnaby Gray',
     author_email='barnaby@pickle.me.uk',
     url='http://loads.pickle.me.uk/cli53/',
-    install_requires=['boto', 'argparse', 'dnspython'],
+    install_requires=['boto', 'dnspython'],
     scripts=['scripts/cli53'],
     packages=find_packages(),
     classifiers=[
